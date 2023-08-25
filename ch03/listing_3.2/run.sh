@@ -1,6 +1,6 @@
 #!/bin/bash
 GITHUB_USERNAME=$1
-GITHUB_EMAIL=$2
+GITHUB_EMAIL=stefan.schoening@gmx.de
 
 SERVICE_NAME=order
 RELEASE_VERSION=v1.2.3
