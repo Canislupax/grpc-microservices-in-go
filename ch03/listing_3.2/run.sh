@@ -23,6 +23,7 @@ go mod tidy || true
 cd ../../
 git config --global user.email ${GITHUB_EMAIL}
 git config --global user.name ${GITHUB_USERNAME}
+git fetch
 git add . && git commit -am "proto update" || true
 git push -u origin HEAD
 git tag -d ch03/listing_3.2/golang/${SERVICE_NAME}/${RELEASE_VERSION}
